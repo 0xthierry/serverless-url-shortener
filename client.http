@@ -1,0 +1,11 @@
+# @name shortener
+POST https://l69frlve9f.execute-api.us-east-1.amazonaws.com/ HTTP/1.1
+content-type: application/json
+
+{
+  "url": "https://0xthierry.com"
+}
+
+###
+# @name redirect
+GET https://l69frlve9f.execute-api.us-east-1.amazonaws.com/a74fr97

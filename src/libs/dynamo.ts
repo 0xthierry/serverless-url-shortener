@@ -22,9 +22,7 @@ export const dynamo = {
     const params: GetCommandInput = {
       TableName: tableName,
       Key: {
-        id: {
-          S: id,
-        }
+        id,
       }
     }
 

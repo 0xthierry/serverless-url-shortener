@@ -12,17 +12,17 @@ const functions: AWS["functions"] = {
       },
     ],
   },
- /*  getUrl: {
+  getUrl: {
     handler: "src/functions/getUrl/index.handler",
     events: [
       {
         httpApi: {
-          path: "/",
+          path: "/{slug}",
           method: "GET",
         },
       },
     ],
-  }, */
+  },
 };
 
 export default functions;
